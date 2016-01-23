@@ -16,6 +16,11 @@ body {
   border-right: 3px solid #ffffff;
   border-top: 3px solid #ffffff;
   border-bottom: 3px solid #ffffff;
+  position: absolute; 
+  left: 5px; 
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
 }
 
 
@@ -23,15 +28,18 @@ h1 {
   font-family: 'BebasNeue', sans-serif;
   font-weight: 300;
   color: #ffffff;
-	font-size: 40px;
+	font-size: 50px;
   text-align: center;
+  line-height: 70%;
 }
 
 h3 {
   font-family: 'BasicTitleFont';
 	font-weight: 400;
+  font-size: 25px;
   color: #ffffff;
   text-align: center;
+  line-height: 50%;
 }
 
 h4 {
@@ -57,7 +65,7 @@ h4 {
 }
 
 #ipc-logo {
-  width: 350px;
+  width: 450px;
 }
 
 #subscribe-button {
