@@ -1,13 +1,19 @@
-var phoneNumber = $('#phone-number-input').val();
-var phoneNumberJSON = {
-  phoneNumber: phoneNumber
-};
+console.log('got here');
 
-$('#submit-button').click(function(event) {
-  console.log(phoneNumberJSON);
-  $.ajax({
-    type: 'POST',
-    url: '/beginquiz',
-    data: phoneNumberJSON
+$(document).ready(function(){
+  $('body').on('click', '#subscribe-button', function() {
+    console.log('clicked on button');
   });
 });
+
+$(document).ready(function(){
+  $('body').on('mouseover', '#subscribe-button', function() {
+    console.log('hovered on button');
+  });
+});
+
+console.log($('#subscribe-wrapper'));
+
+/*$('.typeform-button').on('mouseover', function() {
+  console.log('hovered');
+});*/
