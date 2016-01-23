@@ -1,14 +1,18 @@
-console.log('got here');
-
 $(document).ready(function(){
   $('body').on('click', '#subscribe-button', function() {
-    console.log('clicked on button');
+    window.open('https://ivypolicyconference.typeform.com/to/VqO51Q', '_blank');
   });
 });
 
 $(document).ready(function(){
   $('body').on('mouseover', '#subscribe-button', function() {
-    console.log('hovered on button');
+    $(this).attr('src', 'Images/subscribe-mouseover.png');
+  });
+});
+
+$(document).ready(function(){
+  $('body').on('mouseout', '#subscribe-button', function() {
+    $(this).attr('src', 'Images/subscribe-mouseout.png');
   });
 });
 
