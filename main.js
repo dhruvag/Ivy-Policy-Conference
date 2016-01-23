@@ -16,8 +16,14 @@ $(document).ready(function(){
   });
 });
 
-console.log($('#subscribe-wrapper'));
+$(document).ready(function() {
+  $('body').on('mouseover', 'a', function() {
+    $(this).css('color', '#3b4372');
+  });
+});
 
-/*$('.typeform-button').on('mouseover', function() {
-  console.log('hovered');
-});*/
+$(document).ready(function() {
+  $('body').on('mouseout', 'a', function() {
+    $(this).css('color', '#283060');
+  });
+});
