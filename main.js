@@ -6,13 +6,13 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $('body').on('mouseover', '#subscribe-button', function() {
-    $(this).attr('src', 'Images/SubOn.png');
+    $(this).attr('src', 'Images/InterestOn.png');
   });
 });
 
 $(document).ready(function(){
   $('body').on('mouseout', '#subscribe-button', function() {
-    $(this).attr('src', 'Images/SubOff.png');
+    $(this).attr('src', 'Images/InterestOff.png');
   });
 });
 
