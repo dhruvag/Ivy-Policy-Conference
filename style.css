@@ -67,9 +67,9 @@ h3 {
 
 #footer {
   bottom: 0px; 
-  text-align: right; 
+  right: 5px; 
   color: white; 
   font-family: 'BasicTitleFont';
   font-size: 10px;
-  position: relative;
+  position: fixed;
 }
