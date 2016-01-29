@@ -72,7 +72,7 @@ h3 {
   color: white; 
   font-family: 'BasicTitleFont';
   font-size: 10px;
-  position: fixed;
+  position: absolute;
 }
 
 .social-links {
@@ -85,4 +85,32 @@ h3 {
   color: #283060;
 }
 
+.panel-default {
+  border-color: #BB2026;
+}
+
+.panel-default > .panel-heading {
+  background-color: #BB2026;
+  border-color: #BB2026;
+}
+
+.panel-body {
+  background-color: rgba(64, 89, 168, 0.8);
+  border-color: #4059A8 !important;
+  color: #fff;
+}
+
+.panel-title {
+  color: #0c1524;
+  font-family: 'BebasNeue';
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
+  line-height: 70%;
+}
+
+.panel-title i {
+  font-weight: 200;
+  font-size: 18px;
+}
 
