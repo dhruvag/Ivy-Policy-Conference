@@ -9,9 +9,11 @@
 
   	<title>Ivy Policy Conference 2016</title>
 
-  	<link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="main.js" type="text/javascript" charset="utf-8"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -43,10 +45,83 @@
 
 
     <center><img id="subscribe-button" src="Images/InterestOff.png"></center>
+    <!-- FAQ Section -->
+    <section id="faq" class="section dark">
+      <div class="container">
+        <br />
+        <h1>Frequently Asked Questions</h1>
+        <br />
+        <article class="row">
+          <div class="col-md-4 col-sm-4 text-left animated hiding" data-animation="fadeInRight" data-delay="500"> 
+             <h3>About Ivy Council</h3>
+            <div class="panel panel-default panel-faq">
+                <div class="panel-heading">
+                    <a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-1">
+                        <h4 class="panel-title">
+                            FAQ Item Category #1
+                            <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                        </h4>
+                    </a>
+                </div>
+                <div id="faq-cat-1-sub-1" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 text-left animated hiding" data-animation="fadeInRight" data-delay="500"> 
+             <h3>About Christopher Kao</h3>
+            <div class="panel panel-default panel-faq">
+                <div class="panel-heading">
+                    <a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-1">
+                        <h4 class="panel-title">
+                            FAQ Item Category #1
+                            <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                        </h4>
+                    </a>
+                </div>
+                <div id="faq-cat-1-sub-1" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+          </div>
+            
+          <div class="col-md-4 col-sm-4 text-left animated hiding" data-animation="fadeInRight" data-delay="500">
+          <h3>About Ivy Policy Conference</h3> 
+            <div class="panel panel-default panel-faq">
+                <div class="panel-heading">
+                    <a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-2">
+                        <h4 class="panel-title">
+                            FAQ Item Category #1
+                            <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                        </h4>
+                    </a>
+                </div>
+                <div id="faq-cat-1-sub-2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>  
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- End FAQ Section -->
     <br>
     <br>
   	<div id = "footer">
   		<p>Designed by Irena Xia and Christopher Kao</p>
-  	</div>           
+  	</div>  
+    <script>
+    $( "#faq-head-1" ).click(function() {
+      $( "#faq-body-1" ).slideToggle( "slow", function() {
+        // Animation complete.
+      });
+    });
+    </script>         
   </body>
 </html>
