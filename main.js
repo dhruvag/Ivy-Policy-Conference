@@ -9,13 +9,13 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $('body').on('mouseover', '#subscribe-button', function() {
-    $(this).attr('src', 'Images/InterestOn.png');
+    $(this).attr('src', 'Images/InterestOff.png');
   });
 });
 
 $(document).ready(function(){
   $('body').on('mouseout', '#subscribe-button', function() {
-    $(this).attr('src', 'Images/InterestOff.png');
+    $(this).attr('src', 'Images/InterestOn.png');
   });
 });
 
