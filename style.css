@@ -42,13 +42,17 @@ h2{
 
 h3 {
   font-family: 'BasicTitleFont';
-	font-weight: 400;
+  font-weight: 400;
   font-size: 20px;
   color: #ffffff;
   text-align: center;
   line-height: 50%;
 }
 
+h5{
+    text-align: center;
+    color: #9F9E9E;
+}
 
 @font-face {
     font-family: 'BebasNeue';
