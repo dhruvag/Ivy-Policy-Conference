@@ -138,3 +138,16 @@ a:hover, .panel-title:hover, .panel-heading:hover, a, .panel-title, .panel-headi
   font-size: 18px;
 }
 
+#about {
+  background-image: url('./Images/triangles.svg');
+  min-height: 75vh;
+  background-repeat: no-repeat;
+  background-position: center middle;
+}
+
+#speaker {
+  background-image: url('./Images/triangles2.svg');
+  min-height: 75vh;
+  background-repeat: no-repeat;
+  background-position: center middle;
+}
