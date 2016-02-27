@@ -175,10 +175,11 @@ a:hover, .panel-title:hover, .panel-heading:hover, a, .panel-title, .panel-headi
 
 
 table {
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'BasicTitleFont';
     color: white;
     text-align: center;
+    float: left;
 }
 
 .speaker-name {
