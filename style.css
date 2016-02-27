@@ -172,14 +172,14 @@ a:hover, .panel-title:hover, .panel-heading:hover, a, .panel-title, .panel-headi
   background-repeat: no-repeat;
   background-position: center middle;
 }
-
+/*
 
 #sponsor {
     background-image: url('./Images/triangles2.svg');
     min-height: 70vh;
     background-repeat: no-repeat;
     background-position: center middle;
-}
+}*/
 
 table {
     font-size: 18px;
@@ -195,4 +195,24 @@ table {
 
 .img-circle {
   box-shadow: 10px 10px 0px rgba(256, 256, 256, 0.1);
+}
+
+.home-btn {
+  background: #CE2D43;
+  border-radius: 25px;
+  border: 0px;
+  padding: 7px;
+  padding-top: 10px
+}
+
+.home-btn:hover {
+  background: #BC2026;
+}
+
+.home-btn > span {
+  color: #0B1423;
+  font-family: 'BebasNeue', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  line-height: 80%;
 }
