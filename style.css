@@ -174,11 +174,19 @@ a:hover, .panel-title:hover, .panel-heading:hover, a, .panel-title, .panel-headi
 }
 
 
+#sponsor {
+    background-image: url('./Images/triangles2.svg');
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center middle;
+}
+
 table {
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'BasicTitleFont';
     color: white;
     text-align: center;
+    float: left;
 }
 
 .speaker-name {
