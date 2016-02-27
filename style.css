@@ -46,13 +46,9 @@ h3 {
   font-size: 20px;
   color: #ffffff;
   text-align: center;
-  line-height: 50%;
+  /*line-height: 50%;*/
 }
 
-h5{
-    text-align: center;
-    color: #9F9E9E;
-}
 
 @font-face {
     font-family: 'BebasNeue';
@@ -143,6 +139,8 @@ a:hover, .panel-title:hover, .panel-heading:hover, a, .panel-title, .panel-headi
   min-height: 75vh;
   background-repeat: no-repeat;
   background-position: center middle;
+  margin-top: 125px;
+    
 }
 
 #speaker {
@@ -150,4 +148,35 @@ a:hover, .panel-title:hover, .panel-heading:hover, a, .panel-title, .panel-headi
   min-height: 75vh;
   background-repeat: no-repeat;
   background-position: center middle;
+}
+
+
+#schedule {
+  background-image: url('./Images/triangles.svg');
+  min-height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center middle;
+}
+
+#breakout {
+  background-image: url('./Images/triangles2.svg');
+  min-height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center middle;
+  margin-top: 30px;
+}
+
+#faq {
+  background-image: url('./Images/triangles.svg');
+  min-height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center middle;
+}
+
+
+table {
+    font-size: 15px;
+    font-family: 'BasicTitleFont';
+    color: white;
+    text-align: center;
 }
