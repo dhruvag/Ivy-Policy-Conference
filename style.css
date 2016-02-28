@@ -145,17 +145,20 @@ a:hover, .panel-title:hover, .panel-heading:hover, a, .panel-title, .panel-headi
 
 #speaker {
   background-image: url('./Images/triangles2.svg');
-  min-height: 75vh;
+  min-height: 65vh;
   background-repeat: no-repeat;
   background-position: center middle;
 }
 
 
 #schedule {
-  background-image: url('./Images/triangles.svg');
+  background-image: url('./Images/squares.svg');
   min-height: 85vh;
   background-repeat: no-repeat;
-  background-position: center middle;
+  background-position: center bottom;
+  margin-bottom: 150px;
+  
+
 }
 
 #breakout {
