@@ -136,7 +136,7 @@ a:hover, .panel-title:hover, .panel-heading:hover, a, .panel-title, .panel-headi
 
 #about {
   background-image: url('./Images/triangles.svg');
-  min-height: 75vh;
+  min-height: 65vh;
   background-repeat: no-repeat;
   background-position: center middle;
   margin-top: 125px;
@@ -153,14 +153,14 @@ a:hover, .panel-title:hover, .panel-heading:hover, a, .panel-title, .panel-headi
 
 #schedule {
   background-image: url('./Images/triangles.svg');
-  min-height: 70vh;
+  min-height: 85vh;
   background-repeat: no-repeat;
   background-position: center middle;
 }
 
 #breakout {
   background-image: url('./Images/triangles2.svg');
-  min-height: 70vh;
+  min-height: 60vh;
   background-repeat: no-repeat;
   background-position: center middle;
   margin-top: 30px;
