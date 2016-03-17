@@ -196,6 +196,7 @@ table {
   text-align: center;
 }
 
+
 .img-circle {
   box-shadow: 10px 10px 0px rgba(256, 256, 256, 0.1);
 }
@@ -205,7 +206,9 @@ table {
   border-radius: 25px;
   border: 0px;
   padding: 7px;
-  padding-top: 10px
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .home-btn:hover {
@@ -218,4 +221,47 @@ table {
   font-size: 30px;
   text-align: center;
   line-height: 80%;
+}
+
+.btn-speaker {
+  background: none;
+  border: 0px;
+}
+
+.btn-primary{
+    background: none;
+}
+
+.btn-primary:hover{
+    background: none;
+}
+
+.btn-primary.outline {
+    border: 0px;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.modal-body{
+    background: #0C1524;
+    color: #FFF;    
+}
+
+.modal-content  {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 2px !important;
+    border-color: #0C1524;
+}
+
+.modal-header{
+    background: #0C1524;
+    color: #FFF;
+}
+
+.modal-footer{
+    background: #0C1524;
+    color: #FFF;    
 }
