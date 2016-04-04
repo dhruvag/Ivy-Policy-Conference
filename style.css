@@ -49,6 +49,15 @@ h3 {
   /*line-height: 50%;*/
 }
 
+h4 {
+  font-family: 'BasicTitleFont';
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  /*line-height: 50%;*/
+}
+
 
 @font-face {
     font-family: 'BebasNeue';
@@ -174,15 +183,13 @@ a:hover, .panel-title:hover, .panel-heading:hover, a, .panel-title, .panel-headi
   min-height: 70vh;
   background-repeat: no-repeat;
   background-position: center middle;
+  margin-top: 100px;
 }
-/*
+
 
 #sponsor {
-    background-image: url('./Images/triangles2.svg');
-    min-height: 70vh;
-    background-repeat: no-repeat;
-    background-position: center middle;
-}*/
+    background-color: white;
+}
 
 table {
     font-size: 18px;
