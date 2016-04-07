@@ -175,14 +175,10 @@ a:hover, .panel-title:hover, .panel-heading:hover, a, .panel-title, .panel-headi
   background-repeat: no-repeat;
   background-position: center middle;
 }
-/*
 
 #sponsor {
-    background-image: url('./Images/triangles2.svg');
-    min-height: 70vh;
-    background-repeat: no-repeat;
-    background-position: center middle;
-}*/
+    background-color: #CC2F42;
+}
 
 table {
     font-size: 18px;
